@@ -6,7 +6,7 @@ networks:
 services:
   nginx:
     image: nginx:stable-alpine
-    container_name: nginx
+    container_name: hollar_webserver
     ports:
       - "8080:80"
     volumes:
@@ -20,14 +20,14 @@ services:
 
   mysql:
     image: mysql:5.7.29
-    container_name: mysql
+    container_name: hollar_mysql
     restart: unless-stopped
     tty: true
     ports:
       - "3306:3306"
     environment:
-      MYSQL_DATABASE: homestead
-      MYSQL_USER: homestead
+      MYSQL_DATABASE: hollar_db
+      MYSQL_USER: hollar
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
       SERVICE_TAGS: dev
@@ -35,11 +35,25 @@ services:
     networks:
       - laravel
 
+  pma:
+      container_name: PhPmyadmin
+      environment: 
+          MYSQL_DATABASE: hollar_db
+          MYSQL_USER: hollar
+          MYSQL_PASSWORD: secret
+          MYSQL_ROOT_PASSWORD: secret
+          PMA_HOST: db_mysql_hollar
+      image: phpmyadmin/phpmyadmin
+      networks:
+        - laravel
+      ports:
+          - 8889:80/tcp
+
   php:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: php
+    container_name: holla
     volumes:
       - ./src:/var/www/html
     ports:
@@ -49,7 +63,7 @@ services:
 
   composer:
     image: composer:latest
-    container_name: composer
+    container_name: hollar_composer
     volumes:
       - ./src:/var/www/html
     working_dir: /var/www/html
@@ -60,7 +74,7 @@ services:
 
   npm:
     image: node:13.7
-    container_name: npm
+    container_name: hollar_npm
     volumes:
       - ./src:/var/www/html
     working_dir: /var/www/html
@@ -70,7 +84,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: artisan
+    container_name: hollar_artisan
     volumes:
       - ./src:/var/www/html
     depends_on:
