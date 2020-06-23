@@ -1,12 +1,25 @@
 <template>
     <div>
-        <nav class="navbar bg-white border-bottom navbar-light">
-            <router-link class="navbar-brand mr-auto" :to="{name: 'home'}">Home</router-link>
+        <!-- <nav class="navbar bg-white border-bottom navbar-light">
+            <router-link class="navbar-brand mr-auto" style="margin-left: 150px;" :to="{name: 'home'}">Logo</router-link>
             <router-link class="btn nav-button" :to="{name: 'second'}">Second</router-link>
-        </nav>
-        <div class="container mt-4 mb-4 pr-4 pl-4">
+        </nav> -->
+
+  <!-- Header -->
+
+ <!-- Header End -->
+        
             <router-view></router-view>    
-        </div>
+    
+         <!-- <footer-main></footer-main> -->
+
+      
             
     </div>
 </template>
+<script>
+export default {
+  
+}
+</script>
+

@@ -18,36 +18,31 @@ services:
     networks:
       - laravel
 
-  mysql:
-    image: mysql:5.7.29
-    container_name: hollar_mysql
-    restart: unless-stopped
-    tty: true
-    ports:
-      - "3306:3306"
-    environment:
-      MYSQL_DATABASE: hollar_db
-      MYSQL_USER: hollar
-      MYSQL_PASSWORD: secret
-      MYSQL_ROOT_PASSWORD: secret
-      SERVICE_TAGS: dev
-      SERVICE_NAME: mysql
-    networks:
-      - laravel
+  mysql:    
+      container_name: db_mysql_holla
+      environment: 
+          MYSQL_ROOT_PASSWORD: secret
+      image: mysql:5.7
+      restart: unless-stopped
+      tty: true
+      networks:
+        - laravel
+      ports:
+          - 3308:3306/tcp
+      volumes: 
+          - ./src/data/mysql:/var/lib/mysql
 
   pma:
-      container_name: PhPmyadmin
+      container_name: hollapro_phpmyadmin
       environment: 
-          MYSQL_DATABASE: hollar_db
-          MYSQL_USER: hollar
-          MYSQL_PASSWORD: secret
+          MYSQL_DATABASE: holla_db
           MYSQL_ROOT_PASSWORD: secret
-          PMA_HOST: db_mysql_hollar
+          PMA_HOST: db_mysql_holla
       image: phpmyadmin/phpmyadmin
       networks:
         - laravel
       ports:
-          - 8889:80/tcp
+          - 8888:80/tcp
 
   php:
     build:
