@@ -14,13 +14,10 @@ window.Vue = require('vue');
 //     'example-component',
 //      require('./components/ExampleComponent.vue').default);
 
-     Vue.component(
-        'footer-component',
-         require('./components/FooterComponent.vue').default);
-
+    
          Vue.component(
-            'footer-main',
-             require('./components/FooterMain.vue').default);
+            'footer-component',
+             require('./components/FooterComponent.vue').default);
 
              Vue.component(
                 'header-component',
@@ -31,12 +28,12 @@ window.Vue = require('vue');
                      Vue.component(
                         'social-login',
                          require('./components/SocialLogin.vue').default);
-                         Vue.component(
-                            'forgot-password',
-                             require('./components/ForgotPassword.vue').default);
+            //              Vue.component(
+            //                 'forgot-password',
+            //                  require('./components/ForgotPassword.vue').default);
                              Vue.component(
-                              'footer-index',
-                               require('./components/FooterIndex.vue').default);
+                              'mainfooter-component',
+                               require('./components/MainfooterComponent.vue').default);
                                Vue.component(
                                  'app-component',
                                   require('./components/AppComponent.vue').default);

@@ -2,11 +2,11 @@
     <div>
          
                                 <a href="#" class="card-link" id="google">
-                                    <img src="../images/googleicon.png" alt="" id="googleicon">
+                                    <img src="./images/googleicon.png" alt="" id="googleicon">
                                     <p id="googletext">Google</p>
                                     </a>
                                 <a href="#" class="card-link" id="facebook">
-                                <img src="../images/facebookicon.png" alt="" id="facebookicon">
+                                <img src="./images/facebookicon.png" alt="" id="facebookicon">
                                 </a>
                                 <hr id="line1"/> <p id="or">or</p> <hr id="line2"/>
         

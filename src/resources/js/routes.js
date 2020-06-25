@@ -1,11 +1,12 @@
-import Index from "./components/FooterComponent";
-// import Example2 from "./components/Example2";
-import Signup from "./components/SignupComponent";
-import Login from "./components/LoginComponent";
-import ForgetPassword from "./components/ForgetpasswordComponent";
-import Contact from "./components/ContactComponent";
-import FAQ from "./components/faqComponent";
-import ABOUT from "./components/AboutUs";
+import Home from "./components/Pages/Home";
+import About from "./components/Pages/AboutUs";
+import Contact from "./components/Pages/ContactUs.vue";
+import Faq from "./components/Pages/Faq";
+import Signup from "./components/Pages/Signup";
+import Login from "./components/Pages/Login";
+import ForgetPassword from "./components/Pages/ForgetPassword";
+
+
 import VueRouter from 'vue-router';
 
 const routes = [ 
@@ -26,7 +27,7 @@ const routes = [
     },
     {
         path: "/",
-        component: Index,
+        component: Home,
         name: "index",
     },
     {
@@ -36,12 +37,12 @@ const routes = [
     },
     {
         path: "/faq",
-        component: FAQ,
+        component: Faq,
         name: "faq",
     },
     {
         path: "/about",
-        component: ABOUT,
+        component: About,
         name: "about",
     }
 ]

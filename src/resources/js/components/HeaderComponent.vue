@@ -4,7 +4,7 @@
     
      <!-- <nav class="navbar navbar-expand-md navbar-light fixed-top" id="nav">
       <router-link class="navbar-brand" :to="{name: 'home'}">
-        <img src="../images/hollapro 2.png" alt="" srcset="" id="logo">
+        <img src="./images/hollapro 2.png" alt="" srcset="" id="logo">
       </router-link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
 <nav class="navbar navbar-expand-md navbar-light fixed-top" id="nav">
   <div class="container">
     <router-link class="navbar-brand" :to="{name: 'home'}"> 
-      <img src="../images/hollapro 2.png" alt="" srcset="" id="logo">
+      <img src="./images/hollapro 2.png" alt="" srcset="" id="logo">
       </router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -75,7 +75,7 @@
         </ul>
         <ul class="navbar-nav ml-auto">
                <li class="nav-item ml-5 nav-font" >
-                  <router-link class="nav-link nav-font"  :to="{name: 'home'}">Home</router-link>
+                  <router-link class="nav-link nav-font"  :to="{name: 'index'}">Home</router-link>
                 </li>
                 <li class="nav-item nav-font">
                   <router-link class="nav-link" :to="{name: 'faq'}">FAQ</router-link>
