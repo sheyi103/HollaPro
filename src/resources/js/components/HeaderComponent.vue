@@ -55,7 +55,7 @@
 
 <nav class="navbar navbar-expand-md navbar-light fixed-top" id="nav">
   <div class="container">
-    <router-link class="navbar-brand" :to="{name: 'home'}"> 
+    <router-link class="navbar-brand" :to="{name: 'index'}"> 
       <img src="./images/hollapro 2.png" alt="" srcset="" id="logo">
       </router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">

@@ -14,7 +14,7 @@
       <div class="container">
          <img src="./images/hollapro logo 2.png" alt="" srcset="" id="footerlogo">
           <p class="card-text" id="copyright">Copyrights</p>
-          <p id="copyrightvector">&copy</p>
+          <p id="copyrightvector">&copy;</p>
           <p id="reserved">2020 HollaPro rights reserved</p>
       </div>
     </footer>

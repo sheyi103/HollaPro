@@ -75,7 +75,7 @@
           <img style="float: left; margin: 0px 15px 15px 0px;" src="../images/addressicon.png" width="40" />
         <h4 id="contact-header-1">ADDRESS</h4>
           <h1 id="contact-paragraph-1">12, Landbridge Ave, Oniru VI, Lagos</h1>
-        <strong><br style="clear: both;" /></strong>
+        <strong><br style="clear: both;" ></strong>
       
       
       </div>

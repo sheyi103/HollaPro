@@ -113,9 +113,4 @@ line-height: 26px;
 
 color: #FFFFFF;
 }
-.mobile_image{
-  /* height: 700px; */
-  /* z-index: -10; */
-}
-
 </style>

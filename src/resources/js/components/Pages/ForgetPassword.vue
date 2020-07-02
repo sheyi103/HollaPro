@@ -6,167 +6,226 @@
         </header>
         
          <!-- Begin page content -->
-        <main role="main" class="signupcontainer">
-               <big-logo></big-logo>   
-                <div class="row" >
-                    <div class="card" id="forgetpasswordcard">
-                            <div class="card-body">
-                                 <p class="card-title" id="forgetpassword-title">Forget Password</p>
-                                <p class="card-subtitle" id="forgetpassword-sub">Kindly enter your email so that Password can be send to you</p>
-                    
-
-                                <form>
-                                    <div class="form-group">
-                                        <label id="forgetpasswordemail">Enter Email</label>
-                                        <input type="text" class="form-control" id="forgetpasswordemailinput" placeholder="Enter Email">
-                                    </div>
-                                    <button type="submit" id="forgetpasswordbutton" class="btn btn-primary">Continue</button>
-                                        <forgot-password></forgot-password>
-
-                                </form>
+         <div id="bodycontainer">
+              <form class="form-signin">
+                    <div class="text-center mt-3">
+                        <img class="mb-4 mt-2" src="../images/hollapro logo 2.png" alt="" width="153px" height="50px">
+                        <div class="card" id="signupcard">
+                        <h1 class="h3 mt-2 font-weight-normal" id="header-paragraph">Forget Password</h1>
+                        <p id="paragraph">Kindly enter your email so password reset can be send to you </p>
+                      
+                        <div class="row mt-4">
+                            <div class="col-10 ml-5">
+                                <label style="float: left" id="label-text">Enter Email</label>
+                                <div class="form-label-group">
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                                                    
+                                </div>
                             </div>
+                           
+                            <div class="col-10 ml-5">
+                                <button class="btn btn-lg btn-primary btn-block" type="submit">Continue</button>
+                            </div>
+                            
                         </div>
+                            <div class="row text-left pt-2">
+                                <div class="col-10 pb-2 ml-5" style="width: 60px;">
+                                <login-link></login-link>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+              </form>
 
-                </div>
-        </main>
-           
-          
+                <footer class="footer mt-auto py-3">
+                  <FooterComponent></FooterComponent>
+                </footer>
 
-        <footer-component></footer-component>
-           
-
-            
+        </div>          
              
     </div>
 
 </template>
 
 <script>
+import FooterComponent from "../Authorization/AuthFooter"
+import LoginLink from "../Authorization/LoginLink"
+
     export default {
         mounted() {
             console.log('Component mounted.')
+        },
+         components:{
+            
+            FooterComponent: FooterComponent,
+            LoginLink: LoginLink
         }
     }
 </script>
-<style>
-.signupcontainer{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(125.42deg, #4DA4DE 0%, #025388 100%);
+<style scoped>
 
-
+.footercontainer {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
 }
 
-
-#forgetpasswordcard{
-    position: absolute;
-    width: 600px;
-    height: 318px;
-    left: 420px;
-    top: 170px;
-
-    background: #FFFFFF;
-    border-radius: 10px;
-}
-#forgetpassword-title{
-    position: absolute;
-    width: 300px;
-    height: 38px;
-    left: 150px;
-    top: 22px;
-
-    font-family: Hind;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 38px;
-    text-align: center;
-
-    color: #1F262C;
-}
-#forgetpassword-sub{
-    position: absolute;
-    width: 500px;
-    height: 29px;
-    left: 90px;
-    top: 62px;
-
-    font-family: Hind;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 29px;
-
-    /* identical to box height */
-
-    color: #636E78;
-
-
+.footer {
+  background-color: #f5f5f5;
 }
 
-#forgetpasswordemail{
-    position: absolute;
-    width: 150px;
-    height: 26px;
-    left: 39px;
-    /* right: 82.57%; */
-    top: 120px;
-
-    font-family: Hind;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-
-    /* identical to box height */
-
-    color: #3C5A6D;
+#bodycontainer{
+    display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 22%;
+  /* height: 100%; */
+  background: linear-gradient(125.42deg, #4DA4DE 0%, #025388 100%);
 }
-#forgetpasswordemailinput{
-    /* position: absolute;
-    width: 88.14%;
-    height: 6.2%;
-    left: 6.24%;
-    right: 6.24%;
-    top: 48.8%;
-    bottom: 45.31%; */
+.form-signin {
+  width: 100%;
+  /* max-width: 550px; */
+  /* height: 100%; */
+  /* height: 200px; */
+  /* padding: 15px; */
+  margin: auto;
+}
 
+#signupcard{
+    /* position: absolute; */
+/* width: 440px;
+height: 469px; */
+/* left: 420px;
+top: 202px; */
+  height: 50%;
 
-
-position: absolute;
-    width: 88.14%;
-left: 6.24%;
-right: 31.94%;
-top: 47.01%;
-bottom: 58.11%;
 
 background: #FFFFFF;
-border: 1px solid #D7E2E4;
+border-radius: 10px;
+}
+
+#google{
+background: #F6F7FB;
+border: 1px solid #EAEAED;
+box-sizing: border-box;
+box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.02);
+border-radius: 8px;
+
+}
+#facebook{
+    background: #415A94;
+border-radius: 5px;
+}
+#line{
+    border: 1px solid #8AB6D2;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  background: #FFFFFF;
+border: 1px solid #0082C5;
 box-sizing: border-box;
 box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.05);
 border-radius: 7px;
 }
 
-
-#forgetpasswordbutton{
-    position: absolute;
-     width: 88.14%;
-    height: 12.2%;
-    left: 6.24%;
-    right: 6.24%;
-    top: 70.16%;
-    bottom: 26.95%;
-
-    background: #0071BC;
-    border: 1px solid #D7E2E4;
-    box-sizing: border-box;
-    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.05);
-    border-radius: 7px;
-   
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
 }
 
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
 
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+#header-paragraph{
+    font-family: Hind;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+
+color: #1F262C;
+}
+#paragraph{
+    font-family: Hind;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 29px;
+
+/* identical to box height */
+
+color: #636E78;
+}
 
     
 </style>
