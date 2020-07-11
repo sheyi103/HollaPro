@@ -6,7 +6,7 @@
 <main role="main">
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron jumbotron-fluid" id="contact-us"> 
+  <div class="jumbotron contact"> 
     <div class="container">
       <h1 class="display-3 pt-5 text-center">Contact Us</h1>
       <p class="contact_p text-center text-wrap">We strive to provide the best service possible with every contact. Get in touch with our team of customer support.</p>
@@ -14,77 +14,61 @@
     </div>
   </div>
 
-  <div class="containerbody">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-6 offset-2">
-        <h5 id="contact-header">HollaPro Contact</h5>
-        <h2 id="contact-paragraph">We are here to serve you and our line is open 24/7</h2>
-      </div>
-      <!-- <div class="col-md-6">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div> -->
-    </div>
-
-    <div class="row pt-5">
-      <div class="col-md-4 offset-2">
-         <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/onlineicon.png" width="40" />
-         <h4 id="contact-header-1">ONLINE SERVICE</h4>
-         <h1 id="contact-paragraph-1">Info@HollaPro.com</h1>
-        <strong><br style="clear: both;" /></strong>
-      
-      </div>
-      <div class="col-md-4 offset-1">
-        
-          <img style="float: left; margin: 0px 5px 35px 0px;" src="../images/sociamediaicon.png" width="40" />
-          <h4 id="contact-header-1">SOCIAL MEDIA</h4>
-          <div class="pl-5" id="socialicon2">
-             <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+   <section class="section-why">
+    
+    <div class="paragraph-heading">
+          <h3>HollaPro Contact</h3>
+          <p>We are here to serve you and our line is open 24/7  </p> 
+     </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-sm contact-us-box">
+             <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/onlineicon.png" width="40" />
+              <h4 id="contact-header-1">ONLINE SERVICE</h4>
+              <h1 id="contact-paragraph-1">Info@HollaPro.com</h1>
+              <strong><br style="clear: both;" /></strong>
           </div>
+            <div class="col-sm contact-us-box">
+              <img style="float: left; margin: 0px 5px 35px 0px;" src="../images/sociamediaicon.png" width="40" />
+              <h4 id="contact-header-1">SOCIAL MEDIA</h4>
+              <div class="pl-5" id="socialicon2">
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+              </div>
         <strong><br style="clear: both;" /></strong>
-      
-      </div>
-    </div>
-
-     <div class="row">
-      <div class="col-md-4 offset-2">
-          <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/phoneicon.png" width="40" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm contact-us-box">
+              <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/phoneicon.png" width="40" />
             <h4 id="contact-header-1">PHONE NUMBER</h4>
           <h1 id="contact-paragraph-1">W+234(0)80 6767 8765</h1>
           <h1 id="contact-paragraph-1" class="pl-5">W+234(0)80 6767 8765</h1>
         <strong><br style="clear: both;" /></strong>
-      
-      </div>
-      <div class="col-md-4 offset-1">
-          <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/customersecurityicon.png" width="40" />
+            </div>
+            <div class="col-sm contact-us-box">
+              <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/customersecurityicon.png" width="40" />
           <h4 id="contact-header-1">Customer Seccurity</h4>
           <h1 id="contact-paragraph-1" class="text-wrap pl-5">If you have security conserns, please report your isseues with HollaPro at Seccurity@hollapro.com</h1>
         <strong><br style="clear: both;" /></strong>
-        
-      </div>
-    </div>
-
-     <div class="row pb-5">
-      <div class="col-md-6 offset-2">
-        
-          <img style="float: left; margin: 0px 15px 15px 0px;" src="../images/addressicon.png" width="40" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm contact-us-box">
+              <img style="float: left; margin: 0px 15px 15px 0px;" src="../images/addressicon.png" width="40" />
         <h4 id="contact-header-1">ADDRESS</h4>
           <h1 id="contact-paragraph-1">12, Landbridge Ave, Oniru VI, Lagos</h1>
         <strong><br style="clear: both;" ></strong>
-      
-      
-      </div>
-     
-    </div>
-
-     <div class="row pb-5">
-      <div class="col-md-6 offset-2">
-        <div class="mapouter">
+            </div>
+            <div class="col-sm contact-us-box">
+              
+            </div>
+         </div>
+         <div class="row mb-5">
+            <div class="col-sm contact-us-box">
+             <div class="mapouter">
           <div class="gmap_canvas">
           <iframe width="600" height="500" id="gmap_canvas" 
           src="https://maps.google.com/maps?q=58%20awolowo%20road%20ikoyi&t=&z=13&ie=UTF8&iwloc=&output=embed" 
@@ -94,14 +78,15 @@
            <strong><br style="clear: both;" /></strong>
           <a href="https://www.embedgooglemap.net/blog/nordvpn-coupon-code/">nord vpn deal</a>
         </div></div>
+            </div>
+            <div class="col-sm contact-us-box">
+              
+            </div>
+         </div>
       </div>
-     
-    </div>
+  </section>
 
-   
-   
 
-  </div> <!-- /container -->
 
 </main>
 

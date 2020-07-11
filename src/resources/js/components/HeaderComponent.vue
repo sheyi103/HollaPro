@@ -52,8 +52,9 @@
     </nav> -->
 
 
-
-<nav class="navbar navbar-expand-md navbar-light fixed-top" id="nav">
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" id="nav">
   <div class="container">
     <router-link class="navbar-brand" :to="{name: 'index'}"> 
       <img src="./images/hollapro 2.png" alt="" srcset="" id="logo">
@@ -106,6 +107,9 @@
     </div>
   </div>
 </nav>
+  </div>
+</div>
+
   </div>
 
 </template>

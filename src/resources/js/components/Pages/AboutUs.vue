@@ -3,275 +3,284 @@
   <div>
   <header-component></header-component>
 
-<main role="main">
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron jumbotron-fluid" id="contact-us"> 
-    <div class="container">
-      <h1 class="display-3 pt-5 text-center" >About Us</h1>
-      <!-- <input class="form-control" type="text" placeholder="Search for a question...."> -->
-      <p class=" text-center text-wrap" style="color: #fff" >We are focused some of Africa’s biggest challenges by cconnecting profetionals to it’s million of users.</p>
-    </div>
-  </div>
-
-  <div class="containerbody">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-6 offset-2">
-        <h5 id="contact-header">What we stand for as a Company</h5>
-        <h2 id="contact-paragraph">WHollaPro core Values as a Company</h2>
+    <div class="jumbotron about"> 
+      <div class="container">
+        <h1 class="display-3 pt-5 text-center" >About Us</h1>
+        <!-- <input class="form-control" type="text" placeholder="Search for a question...."> -->
+        <p class=" text-center text-wrap" style="color: #fff" >We are focused some of Africa’s biggest challenges by cconnecting profetionals to it’s million of users.</p>
       </div>
     </div>
 
-     <div class="row pt-5">
-      <div class="col-md-4 offset-2">
-          <p class="text-justify" id="paragraph_about">
-              HollaPro is Nigeria largest Artisan/Professional platform and one of the world’s largest Artisan company,serving 250+ cities across Nigeria, Ghana, Kenya, and Uganda. 
-              The HollaPro app offers Professional solutions by connecting customers to Artisan / Professionals and a wide range of professionals across Plumber, Mechanic, Photography and Accountant, enabling convinience and transparency for hundreds of millions of customers and over 1.5 million Professionals.
-             </p>
-             <p class="mb-0 text-justify" id="paragraph_about">
-               HollaPro core value is solving the problem Nigerian faced by not having access to Professional, HollaPro is a Nigeria largest Artisan/Professional platform and one of the world’s largest Artisan/Professional company, serving 250+ cities across Nigeria, Ghana, Kenya, and Uganda. 
-               The HollaPro app offers Professional solutions by connecting customers to Artisan / Professionals and a wide range of professionals across Plumber, Mechanic, Photography and Accountant, enabling convinience and tranparency.
-             </p>
-             <p class="mb-0 text-justify" id="paragraph_about"> 
-               HollaPro founded in April 2020 by FBIC and groups of partners with a mission to build easy access to professionals for billion people in Nigeria.
-          </p>
-      
+    <section class="section-about-us">
+    
+    <div class="paragraph-heading mt-5">
+          <h3>What we stand for as a Company</h3>
+          <p>HollaPro core Values as a Company</p> 
+     </div>
+    <div class="row paragraph-heading">
+      <div class="col-sm about-box">
+        <p>HollaPro is Nigeria largest Artisan/Professional platform and one of the world’s largest Artisan company, serving 250+ cities across Nigeria, Ghana, Kenya, and Uganda. The HollaPro app offers Professional solutions by connecting customers to Artisan / Professionals and a wide range of professionals across Plumber, Mechanic, Photography and Accountant, enabling convinience and transparency for hundreds of millions of customers and over 1.5 million Professionals.</p>
+        <p>HollaPro core value is solving the problem Nigerian faced by not having access to Professional, HollaPro is a Nigeria largest Artisan/Professional platform and one of the world’s largest Artisan/Professional company, serving 250+ cities across Nigeria, Ghana, Kenya, and Uganda. The HollaPro app offers Professional solutions by connecting customers to Artisan / Professionals and a wide range of professionals across Plumber, Mechanic, Photography and Accountant, enabling convinience and tranparency. </p>
+        <p>HollaPro founded in April 2020 by FBIC and groups of partners with a mission to build easy access to professionals for billion people in Nigeria.</p>
       </div>
-      <div class="col-md-4 offset-1">
-        
-           <img src="../images/professional_worker.png"  class="rounded"/>
-      
+      <div class="col-sm about-box">
+        <img src="../images/about-img.png" class="about-image" alt="...">
       </div>
+      
     </div>
-    <div class="row mt-5">
-      <div class="col-md-4 offset-2">
-         <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/onlineicon.png" width="40" />
-         <h4 id="contact-header-1">ONLINE SERVICE</h4>
-         <h1 id="contact-paragraph-1">Info@HollaPro.com</h1>
-        <strong><br style="clear: both;" /></strong>
-      
-      </div>
-      <div class="col-md-4" style="left: 60px">
-        
-          <img style="float: left; margin: 0px 5px 35px 0px;" src="../images/sociamediaicon.png" width="40" />
-          <h4 id="contact-header-1">SOCIAL MEDIA</h4>
-          <div class="pl-5" id="socialicon2">
-             <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-            <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-          </div>
-        <strong><br style="clear: both;" /></strong>
-      
-      </div>
-    </div>
+  </section>
 
-     <div class="row">
-      <div class="col-md-4 offset-2">
-          <img style="float: left; margin: 0px 5px 5px 0px;" src="" width="40" />
-            <h4 id="contact-header-1">PHONE NUMBER</h4>
-          <h1 id="contact-paragraph-1">W+234(0)80 6767 8765</h1>
-          <h1 id="contact-paragraph-1" class="pl-5">W+234(0)80 6767 8765</h1>
-        <strong><br style="clear: both;" /></strong>
-      
-      </div>
-      <div class="col-md-4" style="left: 60px">
-          <img style="float: left; margin: 0px 5px 5px 0px;" src="../images/customersecurityicon.png" width="40" />
-          <h4 id="contact-header-1">Customer Seccurity</h4>
-          <h1 id="contact-paragraph-1" class="text-wrap pl-5">If you have security conserns, please report your isseues with HollaPro at Seccurity@hollapro.com</h1>
-        <strong><br style="clear: both;" /></strong>
-        
-      </div>
-    </div>
-
-     <div class="row pt-5">
-      <div class="col-md-4 offset-2">
-           <img src="../images/about_image_1.png"  class="rounded"/>
-      
-      </div>
-      <div class="col-md-4 offset-1">
+   <section class="section-mission">
+  
+      <div class="container">
         <div class="row">
-          <img src="../images/about_image_2.png" style="height: 200px;" />
+          <div class="col-sm mission-box">
+            <img src="../images/mission.png" class="mission-image" alt="...">
+            <h3> Mission</h3>
+            <p>Our mission is to be the leading Artisan/Professional service in Nigeria</p>
+          </div>
+          <div class="col-sm mission-box">
+            <img src="../images/vision.png" class="mission-image" alt="...">
+            <h3> Vision</h3>
+            <p>HollaPro Vision is to provide access to ease of getting professionals to Large number of Nigerians</p>
+          </div>
         </div>
-         <div class="row pt-3">
-           <img src="../images/about_image_3.png" style="height: 214px; width: 425px;"  />
+        <div class="row">
+          <div class="col-sm mission-box">
+            <img src="../images/mission.png" class="mission-image" alt="...">
+            <h3>Provide Jobs</h3>
+            <p>Empowered entrepreneurs as a Professional on the platform </p>
+          </div>
+          <div class="col-sm mission-box">
+            <img src="../images/vision.png" class="mission-image" alt="...">
+            <h3>High Secure</h3>
+            <p>At HollaPro we work tirelessly to provide the secure platform for both the Users and Professionals</p>
+          </div>
         </div>
       </div>
-    </div>
+   </section>
 
-  <div class="jumbotron jumbotron-fluid mt-5" id="jumbotron_profile">
-    <div class="container">
-      <p class="display-4">Meet our Leadership team</p>
-      <p class="lead">HollaPro is backed by notable investors.</p>
+    <section class="section-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm gellery-box">
+            <img src="../images/gallery.png" class="gallery-image1" alt="...">
+          <div class="col-sm gellery-box">
+            <img src="../images/gallery2.png" class="gallery-image2" alt="...">
+          <img src="../images/gallery3.png" class="gallery-image3" alt="...">
+          </div>
+        </div> 
+        </div>
+      </div>
+  </section>
+
+   <section class="section-team">
+    
+    <div class="paragraph-heading mt-5">
+          <h3>Meet our Leadership team</h3>
+          <p>This are thepeople behind the success of HollaPro</p> 
+     </div>
+     <div class="container">
       <div class="row">
-        <div class="col-6 col-md-3">
-           <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
+        <div class="col-sm about-box">
+        <div class="card-deck">
+            <div class="card team-card">
+              <img src="../images/demo.png" class="card-img-top" alt="...">
+              
               <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
                 <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
+            </div>   
               </div>
             </div>
-        </div>
-        <div class="col-6 col-md-3">
-         <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
+            <div class="card team-card">
+                  <img src="../images/demo.png" class="card-img-top" alt="...">
+
               <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
                 <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
+            </div>   
               </div>
             </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
+            <div class="card team-card">
+                  <img src="../images/demo.png" class="card-img-top" alt="...">
+
               <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
                 <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
+            </div>   
               </div>
             </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
+            <div class="card team-card">
+                  <img src="../images/demo.png" class="card-img-top" alt="...">
+
               <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
                 <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
+            </div>   
               </div>
             </div>
-        </div>
-        
-      </div>
-      <div class="row mt-4">
-        <div class="col-6 col-md-3">
-           <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
+            <div class="card team-card">
+              <img src="../images/demo.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
                 <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
+            </div>   
               </div>
             </div>
+          </div>
         </div>
-        <div class="col-6 col-md-3">
-         <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
-              <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
-                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
-              </div>
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
-              <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
-                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
-              </div>
-            </div>
-        </div>
-        <div class="col-6 col-md-3">
-          <div class="card pt-3" id="profile_card">
-              <img src="../images/demo.png" class="bd-placeholder-img rounded-circle mx-auto d-block" id="profile_image" alt="....">
-              <div class="card-body">
-                <h5 class="card-title text-center">Olawale Olayinka</h5>
-                <p class="card-text text-center">Co-Founder</p>
-                <div class="text-center">
-                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
-                </div>
-                
-              </div>
-            </div>
-        </div>
-         
-        
-      </div>
+      
     </div>
-  </div>
-  <div class="jumbotron jumbotron-fluid mt-5" id="jumbotron_partners">
-    <div class="container mb-0">
-      <h1 class="display-4">Our Partners</h1>
-      <p class="lead">HollaPro is backed by notable investors.</p>
-      <div class="row mb-5">
-        <div class="col-6 col-md-3">
-            <button type="button" class="btn mr-5" id="sponsors_button">FBIS</button>
+    <div class="row">
+        <div class="col-sm about-box">
+        <div class="card-deck">
+            <div class="card team-card">
+              <img src="../images/demo.png" class="card-img-top" alt="...">
+              
+              <div class="card-body">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </div>   
+              </div>
+            </div>
+            <div class="card team-card">
+                  <img src="../images/demo.png" class="card-img-top" alt="...">
+
+              <div class="card-body">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </div>   
+              </div>
+            </div>
+            <div class="card team-card">
+                  <img src="../images/demo.png" class="card-img-top" alt="...">
+
+              <div class="card-body">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </div>   
+              </div>
+            </div>
+            <div class="card team-card">
+                  <img src="../images/demo.png" class="card-img-top" alt="...">
+
+              <div class="card-body">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </div>   
+              </div>
+            </div>
+            <div class="card team-card">
+              <img src="../images/demo.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Olawale Olayinka</h5>
+                <p class="card-text">chairman and founder.</p>
+                <div class="social-icon">
+                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </div>   
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-6 col-md-3">
-         <button type="button" class="btn btn-outline-primary" id="sponsors_button">CHARELSON</button>
-        </div>
-        <div class="col-6 col-md-3">
-          <button type="button" class="btn btn-outline-primary" id="sponsors_button">WEEVATE</button>
-        </div>
-        <div class="col-6 col-md-3">
-          <button type="button" class="btn btn-outline-primary" id="sponsors_button">GOLDEN RULE</button>
-        </div>
-        
-      </div>
+      
     </div>
-</div>
+    
+    </div>
+  </section>
+
+  <section class="section-partners">
+    
+    <div class="paragraph-heading">
+          <h3>Our Partners</h3>
+          <p>HollaPro is backed by notable investors.</p> 
+     </div>
+     <div class="container">
+      <div class="row">
+        <div class="col-sm about-box">
+            <div class="btn btn-partners">
+               <img src="../images/fbis.png" class="partner-logo" alt="...">
+               <h4>fbis</h4>
+               <p>FBIS Technology ltd </p>
+            </div>
+         </div>
+         <div class="col-sm about-box">
+            <div class="btn btn-partners">
+               <img src="../images/chareelson.png" class="partner-logo" alt="...">
+               <h4>Charelson</h4>
+               <p>Charelson Nig Ltd </p>
+            </div>
+         </div>
+         <div class="col-sm about-box">
+            <div class="btn btn-partners">
+               <img src="../images/weevate.png" class="partner-logo" alt="...">
+               <h4>Weevate</h4>
+               <p>Weevate Tech Ltd </p>
+            </div>
+         </div>
+         <div class="col-sm about-box">
+            <div class="btn btn-partners">
+               <img src="../images/goldenrule.png" class="partner-logo" alt="...">
+               <h4>Golden Rule</h4>
+               <p>Communication Ltd</p>
+            </div>
+         </div>
+        </div>
+    </div>
+  </section>
+
+  
   <app-component></app-component>
-
-  
-  
-
-
-
-  </div> <!-- /container -->
-
-</main>
 
 <mainfooter-component></mainfooter-component>
   </div>

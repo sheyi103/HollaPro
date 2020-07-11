@@ -1,90 +1,81 @@
 <template>
     <div>
-        <header>
-            <!-- Fixed navbar -->
-            <header-component></header-component>
-        </header>
-        <div id="bodycontainer">
-              <form class="form-signin">
-                    <div class="text-center mt-3">
-                        <img class="mb-4 mt-2" src="../images/hollapro logo 2.png" alt="" width="153px" height="50px">
-                        <div class="card" id="signupcard">
-                        <h1 class="h3 mt-2 font-weight-normal" id="header-paragraph">Sign Up</h1>
-                        <p id="paragraph">Sign up with your social network</p>
-                        <div class="row justify-content-center" style="padding-bottom: 75px;">
-                            <div class="col-5" id="google">
-                              <img src="../images/googleicon.png" class="pt-2 ml-5" style="float: left" alt="" >
-                                        <p class="pt-2">Google</p>
-                            </div>
-                            <div class="col-5 mr-4" id="facebook" >
-                              <img src="../images/facebookicon.png" class="text-center pt-2"   alt="" >
-                            </div>
-                        </div>
-                      
-                        <div class="row justify-content-center mb-2">
-                            <div class="col-5">
-                            <hr id="line">
-                            </div>
-                            <!-- <div class="col-4"> -->
-                              <p>or</p> 
-                            <!-- </div> -->
-                            <div class="col-5">
-                            <hr id="line">
-                            </div>
-                        </div>
-                        <!-- <social-login></social-login> -->
-                        <!-- <p>Build form controls with floating labels via the <code>:placeholder-shown</code> pseudo-element. <a href="https://caniuse.com/#feat=css-placeholder-shown">Works in latest Chrome, Safari, and Firefox.</a></p> -->
-                  
-                        <ThirdRegistrationPage></ThirdRegistrationPage>
-                            <div class="row text-left pt-2">
-                                <div class="col-10 pb-2 ml-5" style="width: 60px;">
-                                <!-- <a href="" class="">Already on hollaPro? Login</a> -->
-                                <login-link></login-link>
-                                </div>
-                            </div>
+        <section class="section-signup">
+          <div class="container">
+              <div class="row">
+               <img src="../images/hollapro logo 2.png" alt="HollaPro logo" class="signup-logo" />
+              </div>
+              <div class="row">
+                <div class="col-sm">
+                  <div class="signup-box">
+                    <div class="signup-text">
+                      <h3 class="signup-header">Sign up</h3>
+                      <p class="signup-body">Sign up with your social network</p>
                     </div>
+                    <div class="social-btn-box">
+                        <a class="btn btn-google" href="#"><img src="../images/googleicon.png" alt="google icon" class="googleicon"> Google</a>
+                        <a class="btn btn-facebook" href="#"> <i class="fa fa-facebook fa-lg facebookicon" aria-hidden="true"></i>
+                        <span class="facebookicon-text">Facebook</span></a>
                     </div>
-              </form>
+                      <div class="group-form">
+                        <form method="post" action="#">
+                          <div class="signup-form-group">
+                            <div>
+                            <label for="exampleInputEmail1">Enter Full name</label>
+                            </div>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Full name">
+                          </div>
+                          <div class="signup-form-group">
+                            <div>
+                              <label for="exampleInputPassword1">Password</label>
+                            </div>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                          </div>
+                          <div class="signup-form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I have read and accept the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                          </div>
+                          <div class="signup-form-group">
+                            <button type="submit" class="btn btn-submit">Submit</button>
+                          </div>
+                          <div class="signup-form-group">
+                            <a href="#">Already on HollaPro&#63; Login</a>
+                          </div>
+                        </form>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div> 
+        </section>  
 
-                  <footer class="footer mt-auto py-3">
-                  <div class="footercontainer">
-                            <img src="../images/hollapro logo 2.png" alt="" srcset="" id="footerlogo">
-                            <p class="card-text" id="copyright">Copyrights &copy;</p>
-                            <p id="reserved">2020 HollaPro rights reserved</p>
-                        </div>
-                  </footer>
-             
-
-        </div>
-               
-             
+      <footer-component></footer-component>
        </div>
 
 </template>
 
 <script>
-import FooterComponent from "../Authorization/AuthFooter"
-import FirstRegistrationPage from "../Authorization/register1"
-import SecondRegistrationPage from "../Authorization/register2"
-import ThirdRegistrationPage from "../Authorization/register3"
-import PasswordLink from "../Authorization/PasswordLink"
-import LoginLink from "../Authorization/LoginLink"
+// import FooterComponent from "../Authorization/AuthFooter"
+// import FirstRegistrationPage from "../Authorization/register1"
+// import SecondRegistrationPage from "../Authorization/register2"
+// import ThirdRegistrationPage from "../Authorization/register3"
+// import PasswordLink from "../Authorization/PasswordLink"
+// import LoginLink from "../Authorization/LoginLink"
 
     export default {
         mounted() {
             console.log('Component mounted.')
         },
-        components :{
-            FooterComponent : FooterComponent,
-            FirstRegistrationPage: FirstRegistrationPage,
-            SecondRegistrationPage: SecondRegistrationPage,
-            ThirdRegistrationPage: ThirdRegistrationPage,
-            PasswordLink: PasswordLink,
-            LoginLink: LoginLink
-        }
+        // components :{
+        //     FooterComponent : FooterComponent,
+        //     FirstRegistrationPage: FirstRegistrationPage,
+        //     SecondRegistrationPage: SecondRegistrationPage,
+        //     ThirdRegistrationPage: ThirdRegistrationPage,
+        //     PasswordLink: PasswordLink,
+        //     LoginLink: LoginLink
+        // }
     }
 </script>
-<style>
 
 
 .footercontainer {
