@@ -27,10 +27,11 @@
     <style>
   /* Sticky footer styles
 -------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600&display=swap');
 html {
   background-color: #E5E5E5;
   color: #666666;
-  font-family: 'Lato', 'Arial', sans-serif
+  font-family: 'Hind', sans-serif;
   /* font-size: 20px; */
   /* font-weight: 500; */
   text-rendering: optimizeLegibility;

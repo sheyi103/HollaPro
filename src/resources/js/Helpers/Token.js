@@ -1,6 +1,7 @@
 class Token {
     isValid(token){
         const payload = this.payload(token);
+        console.log(payload.aud)
         if(payload){
            return payload.aud == "1" ? true : false
         }
