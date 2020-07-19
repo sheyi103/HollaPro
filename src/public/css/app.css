@@ -11207,14 +11207,6 @@ input[type=submit] {
   float: right;
 }
 
-.step-header {
-  height: 83px !important;
-  width: 100% !important;
-  max-width: 1035px !important;
-  margin: 0 auto !important;
-  margin-top: 35px !important;
-}
-
 .step-box {
   top: 20%;
   /* margin-top: 30px; */
@@ -11255,17 +11247,12 @@ input[type=submit] {
   font-size: 14px !important;
   color: #757575;
   margin: 0 !important;
+  line-height: 18px;
 }
 
 .step-check {
   display: flex;
   align-items: center;
-}
-
-.step-border {
-  /* border-radius: 5px; */
-  border-right: 2px solid #3a4a4e;
-  border-left: 2px solid #3a4a4e;
 }
 
 /* Add a background color to the submit button on mouse-over */
@@ -11299,19 +11286,6 @@ input[type=submit]:hover {
   font-size: 18px;
   /* line-height: 29px; */
   color: #6d6d6d;
-}
-
-.professional-box {
-  padding: 0 !important;
-}
-
-.professional-card {
-  width: 311px;
-  height: 453px;
-  background: #feffff;
-  border: 0.5px solid #f2f8fc;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.102355);
-  border-radius: 5px;
 }
 
 .round-logo {
@@ -11368,24 +11342,6 @@ input[type=submit]:hover {
   float: left;
 }
 
-.other-text h4 {
-  /* font-weight: 150;*/
-  color: #000000;
-  margin-bottom: 0px;
-  /* font-weight: 600; */
-  font-size: 22px;
-}
-
-.other-text p {
-  text-align: justify;
-  padding-top: 1px;
-  color: #666666;
-  /* font-weight: 600; */
-  font-size: 16px;
-  line-height: 26px;
-  color: #666666;
-}
-
 .section-category {
   width: 100%;
   max-width: 1035px;
@@ -11406,10 +11362,10 @@ input[type=submit]:hover {
   top: -26%;
   margin-left: -30%;
   margin-right: 0 !important;
-  margin-left: 0 !important;
+  margin-left: -100px !important;
   width: 100%;
   max-width: 1035px;
-  left: 8%;
+  left: 10%;
 }
 
 .single-slider-icon {
@@ -11491,22 +11447,6 @@ input[type=submit]:hover {
   /* display: inline-block !important; */
 }
 
-.carousel-1 {
-  background-color: #ffd96e;
-}
-
-.carousel-2 {
-  background-color: #cac2fe;
-}
-
-.carousel-3 {
-  background-color: #ffd0c3;
-}
-
-.carousel-4 {
-  background-color: #bfeaff;
-}
-
 .section-book {
   width: 100%;
   max-width: 1035px;
@@ -11536,56 +11476,13 @@ input[type=submit]:hover {
   height: 50px;
 }
 
-.buttom-overflow {
-  position: absolute;
-  bottom: 12.7%;
-  width: 100%;
-  height: 130px;
-  /* left: 0px;
-  top: 3023px; */
-  /* text-align: center; */
-  background: #0071bc;
-  border: 1px solid #0071bc;
-  box-sizing: border-box;
-}
-
-.buttom-overflow-box {
-  display: flex;
-}
-
-.buttom-overflow img {
-  float: left;
-  height: 20px;
-  width: 20px;
-}
-
-.buttom-overflow h5 {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 29px;
-  /* identical to box height */
-  display: flex;
-  align-items: flex-end;
-  color: #ffffff;
-}
-
-.buttom-overflow p {
-  font-size: 16px;
-  line-height: 26px;
-  width: 268px;
-  color: #ffffff;
-}
-
-.buttom-overflow-box div {
-  padding-left: 10px;
-}
-
 /*----------------------*/
 
 /* Footer
 /*----------------------*/
 
 .footer-layer {
+  margin: 20px 0;
   padding-top: 15px;
   padding-bottom: 15px;
   border-top: 1px solid #818a91;
@@ -11616,10 +11513,9 @@ input[type=submit]:hover {
 }
 
 .footer-paragraph {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 26px;
-  /* identical to box height */
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
   color: #ffffff;
 }
 
@@ -11675,6 +11571,7 @@ input[type=submit]:hover {
 
 .footer-body {
   background: #24333d;
+  padding: 30px 0;
 }
 
 /*----------------------*/
